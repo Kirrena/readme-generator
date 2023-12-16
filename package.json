@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Professional README generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirrena/readme-generator.git"
+  },
+  "author": "Renata Kiraly",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Kirrena/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Kirrena/readme-generator#readme"
+  
+  }
