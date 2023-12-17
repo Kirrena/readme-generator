@@ -1,16 +1,16 @@
-# To do Something <br/>
-  ## Description: <br/> 
-  balalldklakl <br/>
-  ## Installation: <br/> 
-  somhow you can install <br/>
-  ## Usage: <br/> 
-  dklklksl;als;dl <br/>
-  ## License: <br/> 
-  My project is covered under undefined license. <br/>
-  ## Tests: <br/> 
-  dontknow <br/>
-  ## Questions: <br/> 
+# Sophia
+  ## Description:
+  Sophia is playing
+  ## Installation:
+  install
+  ## Usage:
+  play
+  ## License:
+  My project is covered under MIT license.
+  ## Tests:
+  some tests
+  ## Questions:
   Please, don't hesitate to visit me on
-  kirrena <br/>
-  kirrena@gmail.com <br/>
+  [My github](https://github.com/kirrena)
+  Or to contact me with any questions : (kirrena@gmail.com)
   

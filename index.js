@@ -35,9 +35,22 @@ const [title, description, installation, usage, license, tests, github, email ] 
       message: usage,
     },
     {
-      type: 'input',
+      type: 'checkbox',
       name: 'license',
       message: license,
+      choices: ['Academic Free License v3.0	AFL-3.0', 
+      'Apache license 2.0',
+      'BSD 2-clause "Simplified" license	B',
+      'BSD 3-clause "New" or "Revised" license',
+      'Boost Software License 1.0',
+      'Creative Commons Zero v1.0 Universal',	
+      'Eclipse Public License 2.0',	
+      'GNU General Public License v3.0',	
+      'ISC',	
+      'Microsoft Public License',	
+      'MIT',
+      'Mozilla Public License 2.0',	
+      'The Unlicense	Unlicense']
     },
     {
       type: 'input',
