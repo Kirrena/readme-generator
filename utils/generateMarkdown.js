@@ -14,7 +14,14 @@ function generateMarkdown(data) {
   ## Questions:
   Please, don't hesitate to visit me on
   [My github](https://github.com/${data.github})
-  Or to contact me with any questions : ${data.email}
+  or to contact me with any questions : ${data.email}
+  ## Table of Content:
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#tests)
+  * [Questions](#questions)
   `;
 }
 
