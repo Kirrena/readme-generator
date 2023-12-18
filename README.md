@@ -1,18 +1,18 @@
-# hey
+# rere [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
   ## Description:
-  ho
+  rerer
   ## Installation:
-  ho
+  rerer
   ## Usage:
-  hi
+  rere
   ## License:
-  My project is covered under Academic Free License v3.0	AFL-3.0 license.
+  My project is covered under Creative Commons Zero v1.0 Universal license.
   ## Tests:
-  y
+  fdfdf
   ## Questions:
   Please, don't hesitate to visit me on
-  [My github](https://github.com/y)
-  Or to contact me with any questions : y
+  [My github](https://github.com/fdfd)
+  or to contact me with any questions : fdf
   ## Table of Content:
   * [Description](#description)
   * [Installation](#installation)

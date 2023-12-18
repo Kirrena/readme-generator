@@ -38,8 +38,8 @@ const [title, description, installation, usage, license, tests, github, email ] 
       type: 'checkbox',
       name: 'license',
       message: license,
-      choices: ['Academic Free License v3.0	AFL-3.0', 
-      'Apache license 2.0',
+      choices: 
+      ['Apache license 2.0',
       'BSD 2-clause "Simplified" license	B',
       'BSD 3-clause "New" or "Revised" license',
       'Boost Software License 1.0',
@@ -50,7 +50,8 @@ const [title, description, installation, usage, license, tests, github, email ] 
       'Microsoft Public License',	
       'MIT',
       'Mozilla Public License 2.0',	
-      'The Unlicense	Unlicense']
+      'The Unlicense Unlicense'
+    ]
     },
     {
       type: 'input',
