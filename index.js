@@ -12,6 +12,21 @@ const questions = ["What is the title of your project?", "What is the descriptio
 
 //destructuring array of questions
 const [title, description, installation, usage, license, tests, github, email ] = questions;
+//add base path
+const basePath = 'C:/Bootcamp/readme-generator';
+const file = 'readme.md';
+const fullPath = path.join(basePath, file);
+
+// function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('Readme is ready: ' + fullPath)
+    )
+}
+
+
+// function to initialize program
+function init() {
 
   inquirer.prompt([
     {
@@ -70,23 +85,11 @@ const [title, description, installation, usage, license, tests, github, email ] 
     },
   ])
   .then((response) => {
-    const fileName = 'readme.md';
+    const fileName = 'readme.md';   
     const data = generateMarkdown(response);
     writeToFile(fileName,data)
-  });
-  
+  });  
 
-// function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('Readme is ready')
-    )
-}
-
-
-// function to initialize program
-function init() {
-    
 }
 
 // function call to initialize program

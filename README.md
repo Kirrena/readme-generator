@@ -1,18 +1,18 @@
-# rere [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+# rewe [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   ## Description:
-  rerer
+  ewew
   ## Installation:
-  rerer
+  ewew
   ## Usage:
-  rere
+  ewew
   ## License:
-  My project is covered under Creative Commons Zero v1.0 Universal license.
+  My project is covered under Boost Software License 1.0 license.
   ## Tests:
-  fdfdf
+  dsd
   ## Questions:
   Please, don't hesitate to visit me on
-  [My github](https://github.com/fdfd)
-  or to contact me with any questions : fdf
+  [My github](https://github.com/sdsd)
+  or to contact me with any questions : sd
   ## Table of Content:
   * [Description](#description)
   * [Installation](#installation)
