@@ -7,11 +7,11 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = ["What is the title of your project?", "What is the description?", 
-"How to install?", "How to use?", "What license is the project covered under?", 
+"How to install?", "How to use?", "What license is the project covered under?", "Who are the contributors of your project?",
 "What tests can be performed?", "What is you gitHub username?", "What is your e-mail address?"];
 
 //destructuring array of questions
-const [title, description, installation, usage, license, tests, github, email ] = questions;
+const [title, description, installation, usage, license, contributing, tests, github, email ] = questions;
 //add base path
 const basePath = 'C:/Bootcamp/readme-generator';
 const file = 'readme.md';
@@ -27,7 +27,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+// prompt questions using inquirer
   inquirer.prompt([
     {
       type: 'input',
@@ -67,6 +67,11 @@ function init() {
       'Mozilla Public License 2.0',	
       'The Unlicense Unlicense'
     ]
+    },
+    {
+      type: 'input',
+      name: 'contributing',
+      message: contributing,
     },
     {
       type: 'input',
